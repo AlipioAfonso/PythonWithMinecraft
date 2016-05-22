@@ -9,3 +9,7 @@ z = -119
 blockType = 103
 
 mc.setBlock(x, y, z, blockType)
+
+while(y<=100):
+    mc.setBlock(x, y, z, blockType)
+    y+=1
