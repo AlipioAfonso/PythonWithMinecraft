@@ -11,7 +11,7 @@ try:
     blockType = int(input("Que bloco quer colocar?"))
     mc.setBlock(x, y, z, blockType)
 except:
-    mc.postToChat("Você não digitou um número! Digite um número da próxima vez!")
+    mc.postToChat("Voce nao digitou um numero! Digite um numero da proxima vez!")
 
 
 
